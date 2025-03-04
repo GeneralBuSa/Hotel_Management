@@ -1,22 +1,24 @@
-# Hotel_Management
-Hotel Management System
-Welcome to the Hotel Management System! This program helps hotel administrators manage room statuses efficiently, allowing them to view, update, and save room information to files. The program supports different room types and provides functionality to track room availability, engagement status, and more.
+🏨 Hotel Management System
+📌 Project Overview
+This project aims to manage the operations of a hotel, including room status updates, saving and loading the hotel’s status, and providing room availability information. The system uses object-oriented principles to simulate room management with different types of rooms and functionalities.
 
-Features
-Display Rooms: View the current status of all rooms in the hotel.
-Update Room Status: Update the status of rooms (Available, Engaged, Cleaning).
-Save Hotel Status to File: Save the current room status to a text file.
-Load Hotel Status from File: Load the previously saved room statuses from a text file.
-Room Types
-This system supports two types of rooms:
+📂 Dataset
+This project doesn't use a dataset but instead uses a predefined set of rooms. The hotel contains both Suit Rooms and Standard Rooms. The statuses of these rooms (Available, Occupied, Cleaning) are managed by the system.
 
-Suit Rooms (S): Premium rooms with luxurious amenities.
-Standard Rooms (R): Regular rooms with essential amenities.
-There are 50 rooms in total:
+🔧 Steps Taken
+1-Room Management
+Created classes to represent different types of rooms (Suit Rooms and Standard Rooms).
+Implemented functionality to update room statuses and display room details.
+2-Data Persistence
+Implemented saving and loading of hotel status to/from a file to maintain room statuses.
+3-User Interface
+Built a simple text-based menu system to interact with the hotel management system, including showing room statuses, updating statuses, and saving/loading data.
+4-Room Types
+Handled two types of rooms:
+Suit Rooms (S): Luxurious rooms with more advanced features.
+Standard Rooms (R): Basic rooms for regular stays.
 
-The first 25 rooms are Suit Rooms (S1, S2, ..., S25).
-The next 25 rooms are Standard Rooms (R1, R2, ..., R25).
-Getting Started
+🚀Getting Started
 To use the system, simply run the program. Once launched, you will be presented with a simple menu to select your desired action:
 
 Show Rooms: View the current status of each room.
@@ -24,10 +26,8 @@ Update Room Status: Change the status of a room (e.g., from "Available" to "Occu
 Save Hotel Status to File: Save the room statuses to a file for later use.
 Load Hotel Status from File: Retrieve the saved room statuses from a file.
 Exit: Close the program.
-Example Usage:
-bash
-Kopyala
-Düzenle
+
+📌
  --- Hotel Management System ---
 1. Show Rooms
 2. Update Room Status
@@ -40,6 +40,7 @@ Room S1: Available
 Room S2: Available
 Room R1: Available
 ...
+
 Code Structure
 Classes
 Room: A base class for representing rooms, containing details such as the room number and status.
@@ -48,12 +49,3 @@ StandardRoom: A derived class that represents standard rooms, also inheriting fr
 Hotel: A class responsible for managing the rooms. It provides functions to display room statuses, update them, and save/load to/from a file.
 File Operations
 The program saves the room statuses to a file named hotel_status.txt and retrieves them when needed. This allows the program to retain room status information even after it is closed.
-
-Requirements
-A C++ compiler (e.g., g++, Visual Studio).
-Standard C++ libraries (<iostream>, <fstream>, <string>).
-License
-This project is open source and free to use. Feel free to modify and improve it according to your needs!
-
-Feel free to explore and enjoy managing your hotel with this system!
-This README provides clear instructions for using the system and describes its features in a polished and professional manner!
