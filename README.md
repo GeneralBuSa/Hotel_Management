@@ -47,15 +47,5 @@ Room R1: Available
 ... 
 ```
 ---
-## Code Structure
-Classes
-# Room: 
-A base class for representing rooms, containing details such as the room number and status.
-# SuitRoom: 
-A derived class that represents suit rooms, inheriting from the Room class.
-# StandardRoom: 
-A derived class that represents standard rooms, also inheriting from the Room class.
-# Hotel: 
-A class responsible for managing the rooms. It provides functions to display room statuses, update them, and save/load to/from a file.
-# File Operations
+## File Operations
 The program saves the room statuses to a file named hotel_status.txt and retrieves them when needed. This allows the program to retain room status information even after it is closed.
