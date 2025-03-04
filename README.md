@@ -35,10 +35,15 @@ Exit: Close the program.
 4. Load Hotel Status from File
 0. Exit
 Enter your choice: 1
+
 Room Status:
+
 Room S1: Available
+
 Room S2: Available
+
 Room R1: Available
+
 ...
 
 Code Structure
